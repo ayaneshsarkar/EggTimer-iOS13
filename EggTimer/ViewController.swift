@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var timer: DispatchSourceTimer?
     
-    let eggTimes: [String: Int] = ["Soft": 10, "Medium": 420, "Hard": 720]
+    let eggTimes: [String: Int] = ["Soft": 300, "Medium": 420, "Hard": 720]
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
         let hardness: String = sender.currentTitle!
